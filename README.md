@@ -18,7 +18,7 @@ Generate HTML Map from Wardrive/Wigle WiFi log files
 python3, ipython3, pandas, folium
 
 ```bash
-pip install ipython3 pandas folium --break-system-packages
+pip install ipython pandas folium --break-system-packages
 ```
 
 ---
