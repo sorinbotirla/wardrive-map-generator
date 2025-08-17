@@ -41,6 +41,8 @@ ipython wardrive-map-generator.py
 
 Then open mapdata.html in your browser and check the markers.
 
+---
+
 ## How to get wardrive log files
 
 You can use the <a href="https://wigle.net/" target="_blank">Wigle.net</a> app or buy an ESP32 Marauder from <a href="https://justcallmekokollc.com/" target="_blank">https://justcallmekokollc.com/</a> or <a href="https://awokdynamics.com/" target="_blank">https://awokdynamics.com/</a>
@@ -48,14 +50,29 @@ You can use the <a href="https://wigle.net/" target="_blank">Wigle.net</a> app o
 
 To build an ESP32 Marauder you can follow my guide <a href="https://github.com/sorinbotirla/Dual-ESP32-CAM-Marauder" target="_blank">here</a> and <a href="https://github.com/sorinbotirla/esp32-marauder-ESP32-3248S035C" target="_blank">here</a>
 
+---
+
 ## Ok, but what's Wardriving?
 
 According to <a href="https://en.wikipedia.org/wiki/Wardriving" target="_blank">Wikipedia</a>, wardriving is 
-```bash
+```text
 Wardriving is the act of searching for Wi-Fi wireless networks as well as cell towers, usually from a moving vehicle, using a laptop or smartphone. Software for wardriving is freely available on the internet.
 ```
 
 You can scan all the WiFi networks around you using a software/app/device that has GPS and WiFi capabilities. The point is to collect all the wireless network locations, store them in log files, and upload the logs on the international wireless database found on <a href="https://wigle.net/" target="_blank">https://wigle.net/</a>, where you can contribute and search for the location of various wireless stations/access points around the world.
+
+---
+
+## What's in the wardrive log files?
+
+Each log file is basically a CSV file containing the following columns:
+
+```csv
+MAC,SSID,AuthMode,FirstSeen,Channel,RSSI,CurrentLatitude,CurrentLongitude,AltitudeMeters,AccuracyMeters,Type
+6A:9A:XX:XX:XX:XX,TP-Link_XXX,[WPA2_PSK],2025-6-7 2:36:2,6,-91,44.4481659,26.0647907,90.50,4.25,WIFI
+```
+
+---
 
 ## Is Wardriving legal?
 
