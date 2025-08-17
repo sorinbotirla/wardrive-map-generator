@@ -43,9 +43,9 @@ Then open mapdata.html in your browser and check the markers.
 
 ## How to get wardrive log files
 
-You can use the <a href="https://wigle.net/">Wigle.net</a> app or buy an ESP32 Marauder from <a href="https://justcallmekokollc.com/">https://justcallmekokollc.com/</a> or <a href="https://awokdynamics.com/">https://awokdynamics.com/</a>
+You can use the <a href="https://wigle.net/" target="_blank">Wigle.net</a> app or buy an ESP32 Marauder from <a href="https://justcallmekokollc.com/" target="_blank">https://justcallmekokollc.com/</a> or <a href="https://awokdynamics.com/" target="_blank">https://awokdynamics.com/</a>
 <img src="https://raw.githubusercontent.com/sorinbotirla/wardrive-map-generator/refs/heads/main/images/wardrivers.jpg" width="100%" />
 
-To build an ESP32 Marauder you can follow my guide <a href="https://github.com/sorinbotirla/Dual-ESP32-CAM-Marauder">here</a> and <a href="https://github.com/sorinbotirla/esp32-marauder-ESP32-3248S035C">here</a>
+To build an ESP32 Marauder you can follow my guide <a href="https://github.com/sorinbotirla/Dual-ESP32-CAM-Marauder" target="_blank">here</a> and <a href="https://github.com/sorinbotirla/esp32-marauder-ESP32-3248S035C" target="_blank">here</a>
 
 
