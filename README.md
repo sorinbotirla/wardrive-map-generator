@@ -17,6 +17,20 @@ Generate HTML Map from Wardrive/Wigle WiFi log files
 ## Dependencies
 python3, ipython, pandas, folium
 
+Download <a href="https://www.python.org/downloads/">Python 3</a> if you don't have it already. Make sure PIP is installed too.<br />
+Check it with:
+```bash
+python -V
+```
+and
+```bash
+pip -V
+```
+
+If both commands display versions, you're good to go.<br />
+
+Then run:
+
 ```bash
 pip install ipython pandas folium --break-system-packages
 ```
