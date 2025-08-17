@@ -13,6 +13,15 @@ Generate HTML Map from Wardrive/Wigle WiFi log files
 </table>
 
 ---
+
+## Dependencies
+python3, ipython3, pandas, folium
+
+```bash
+pip install ipython3 pandas folium --break-system-packages
+```
+
+---
 ## Install
 
 ```bash
@@ -24,16 +33,7 @@ Add your wardrive .log files next to the script. When you run the script, it wil
 
 ---
 
-## Dependencies
-python3, ipython3, pandas, folium
-
-```bash
-pip install ipython3 pandas folium --break-system-packages
-```
-
----
-
-## How to run
+## Run
 
 ```bash
 ipython wardrive-map-generator.py
