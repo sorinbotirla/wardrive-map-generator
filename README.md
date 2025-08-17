@@ -48,4 +48,17 @@ You can use the <a href="https://wigle.net/" target="_blank">Wigle.net</a> app o
 
 To build an ESP32 Marauder you can follow my guide <a href="https://github.com/sorinbotirla/Dual-ESP32-CAM-Marauder" target="_blank">here</a> and <a href="https://github.com/sorinbotirla/esp32-marauder-ESP32-3248S035C" target="_blank">here</a>
 
+## Ok, but what's Wardriving?
+
+According to <a href="https://en.wikipedia.org/wiki/Wardriving" target="_blank">Wikipedia</a>, wardriving is 
+```bash
+Wardriving is the act of searching for Wi-Fi wireless networks as well as cell towers, usually from a moving vehicle, using a laptop or smartphone. Software for wardriving is freely available on the internet.
+```
+
+You can scan all the WiFi networks around you using a software/app/device that has GPS and WiFi capabilities. The point is to collect all the wireless network locations, store them in log files, and upload the logs on the international wireless database found on <a href="https://wigle.net/" target="_blank">https://wigle.net/</a>, where you can contribute and search for the location of various wireless stations/access points around the world.
+
+## Is Wardriving legal?
+
+Yes. You do not hack the wireless networks, neither connect to them. Wardriving is just creating a world map of wifi networks.
+
 
